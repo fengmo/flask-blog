@@ -1,0 +1,5 @@
+{% if current_user.nickname %}
+<h3>{{ data }}：{{ current_user.nickname }}</h3>
+{% else %}
+<h3>{{ data }}：World</h3>
+{% endif %}
